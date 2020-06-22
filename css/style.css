@@ -1,0 +1,735 @@
+body {
+	font-family: 'Cabin', sans-serif;
+}
+
+/*CLASES ESPECIALES
+===================*/
+
+/*PADDINGS
+==========*/
+
+.no-padding {
+	padding: 0;
+}
+
+.no-padding-lr {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.no-padding-tb {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.no-padding-right {
+	padding-right: 0;
+}
+
+.no-padding-left {
+	padding-left: 0;
+}
+
+.no-padding-top {
+	padding-top: 0;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+
+
+/*MARGINS
+=========*/
+
+.no-margin {
+	margin: 0;
+}
+
+.no-margin-lr {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.no-margin-tb {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.no-margin-left {
+	margin-left: 0;
+}
+
+.no-margin-right {
+	margin-right: 0;
+}
+
+.no-margin-top {
+	margin-top: 0;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.top-5 {
+	margin-top: 5px;
+}
+
+.bottom-5 {
+	margin-bottom: 5px;
+}
+
+.top-10 {
+	margin-top: 10px;
+}
+
+.bottom-10 {
+	margin-bottom: 10px;
+}
+
+.top-15 {
+	margin-top: 15px;
+}
+
+.bottom-15 {
+	margin-bottom: 15px;
+}
+
+.top-20 {
+	margin-top: 20px;
+}
+
+.bottom-20 {
+	margin-bottom: 20px;
+}
+
+.top-25 {
+	margin-top: 25px;
+}
+
+.bottom-25 {
+	margin-bottom: 25px;
+}
+
+
+.top-30 {
+	margin-top: 30px;
+}
+
+.bottom-30 {
+	margin-bottom: 30px;
+}
+
+.top-35 {
+	margin-top: 35px;
+}
+
+.bottom-35 {
+	margin-bottom: 35px;
+}
+
+.top-40 {
+	margin-top: 40px;
+}
+
+.bottom-40 {
+	margin-bottom: 40px;
+}
+
+.top-45 {
+	margin-top: 45px;
+}
+
+.bottom-45 {
+	margin-bottom: 45px;
+}
+
+.top-50 {
+	margin-top: 50px;
+}
+
+.bottom-50 {
+	margin-bottom: 50px;
+}
+
+.top-55 {
+	margin-top: 55px;
+}
+
+.bottom-55 {
+	margin-bottom: 55px;
+}
+
+.top-60 {
+	margin-top: 60px;
+}
+
+.bottom-60 {
+	margin-bottom: 60px;
+}
+
+.top-65 {
+	margin-top: 65px;
+}
+
+.bottom-65 {
+	margin-bottom: 65px;
+}
+
+.top-70 {
+	margin-top: 70px;
+}
+
+.bottom-70 {
+	margin-bottom: 70px;
+}
+
+.top-75 {
+	margin-top: 75px;
+}
+
+.bottom-75 {
+	margin-bottom: 75px;
+}
+
+.top-80 {
+	margin-top: 80px;
+}
+
+.bottom-80 {
+	margin-bottom: 80px;
+}
+
+.top-85 {
+	margin-top: 85px;
+}
+
+.bottom-85 {
+	margin-bottom: 85px;
+}
+
+.top-90 {
+	margin-top: 90px;
+}
+
+.bottom-90 {
+	margin-bottom: 90px;
+}
+
+.top-95 {
+	margin-top: 95px;
+}
+
+.bottom-95 {
+	margin-bottom: 95px;
+}
+
+.top-100 {
+	margin-top: 100px;
+}
+
+.bottom-100 {
+	margin-bottom: 100px;
+}
+
+.no-line-height {
+	line-height: 0;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #7e5a8c;
+	font-weight: bold;
+}
+
+
+/*HEADER
+=========*/
+
+header {
+	width: 100%;
+	height: 570px;
+	background: url(../images/portada.png) no-repeat center center;
+	background-size: cover;
+}
+
+header h1 {
+	margin-top: 500px;
+}
+
+	/*HEADER XS
+	===========*/
+	.header-xs h1 {
+		margin-top: 30px;
+		font-size: 24px;
+		text-align: center;
+	}
+
+/*NAV
+=====*/
+.navbar {
+	min-height: 50px;
+	margin-bottom: 0;
+	background-color: #7e5a8c;
+}
+
+.navbar-nav {
+	margin-top: 0;
+	margin-bottom: 0; 
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ebebeb;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 15px 25px;
+}
+
+.navbar-brand {
+	padding: 15px;
+}
+
+.navbar-toggle {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 17px 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #583e62;
+}
+
+.navbar-fixed-top {
+	background-color: rgba(88,62,98, 0.9);
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: #583e62;
+}
+
+/*SECTION-1
+===========*/
+#section-1 {
+	background-color: #ededed;
+}
+
+	/*CAROUSEL
+	==========*/
+	#section-1 .carousel-section-1 {
+	padding: 100px;
+	}
+
+	#section-1 .item p {
+		font-size: 18px;
+		line-height: 32px;
+		font-style: italic;
+		color: #999999;
+	}
+	
+	#section-1 .item h3 {
+		font-weight: bold;
+		color: #7e5a8c;
+	}
+
+	#section-1 .carousel-indicators {
+		margin-bottom: 50px;
+	}
+
+	#section-1 .carousel-indicators li {
+		border: 1px solid #7e5a8c;
+	}
+
+	#section-1 .carousel-indicators .active {
+		background-color: #7e5a8c;
+	}
+
+	/*SECTION-1-XS
+	==============*/
+	#section-1-xs {
+		background-color: #ededed;
+		padding-top: 30px;
+		padding-bottom: 100px;
+	}
+
+	.veterinaria p {
+		color: #ededed;
+		font-style: italic;
+	}
+
+	.veterinaria {
+		padding: 30px;
+		background-color: #7e5a8c;
+	}
+	
+	.veterinaria h4 {
+		color: #ffffff;
+	}
+
+
+/*SECTION-2
+===========*/
+	#section-2 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background-color: #ffffff;
+		color: #999999;
+	}
+
+	.veterinario {
+		margin-top: 50px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.veterinario span {
+		font-size: 42px;
+		color: #7e5a8c;
+	}
+
+/*SECTION-3
+===========*/
+
+#section-3 {
+	background-color: #ededed;
+	padding: 100px 0 70px 0;
+}
+
+.servicios {
+	width: 100%;
+	height: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	float: left;
+}
+
+.cuadro {
+	width: 31.578947%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+	.cuadro-margin-left {
+		margin-left: 2.631578%;
+	}
+
+	.menu-servicios {
+		width: 100%;
+		height: 100%;
+		background-color: #7e5a8c;
+		font-size: 18px;
+		list-style: none;
+		padding: 35px;
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		display: none;
+	}
+
+	.menu-servicios h4 {
+		color: #ffffff;
+	}
+
+	.menu-servicios li {
+		margin-left: 15px;
+	}
+	
+	.menu-servicios li:first-of-type {
+		margin-left: 0px;
+		margin-bottom: 15px;
+	}
+
+#section-3 .nombre-servicio {
+	width: 70%;
+	height: auto;
+	background-color: #7e5a8c;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+}
+
+#section-3 .nombre-servicio:hover,
+#section-3 .nombre-servicio:focus {
+	background-color: #583e62;
+}
+
+#section-3 .nombre-servicio h4 {
+	color: #ffffff;
+}
+
+	/*LISTA DE SERVICIOS
+	====================*/
+
+
+/*SECTION-4
+===========*/
+
+#section-4 {
+	background-color: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#section-4 p {
+	color: #999999;
+}
+
+.nav-pills > li > a {
+	background-color: #7e5a8c;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+	background-color: #583e62;
+}
+
+#section-4 .fa-external-link {
+	padding-right: 10px;
+}
+
+
+
+/*SECTION-5
+===========*/
+
+#section-5 {
+	background-color: #ededed;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.contacto p {
+	color: #999999;
+	font-size: 15px;
+}
+
+.contacto strong {
+	color: #7e5a8c;
+}
+
+.contacto a {
+	text-decoration: none;
+	color: #999999;
+}
+
+.contacto .fa-external-link {
+	color: #7e5a8c;
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+/*FOOTER
+========*/
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #7e5a8c;
+	color: #ffffff;
+	text-align: center;
+}
+
+footer p,
+footer a {
+	font-size: 14px; 
+}
+
+footer a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer a:hover,
+footer a:focus {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*ESTUDIOS
+==========*/
+
+#cirugia,
+#rayo-digital {
+	padding: 50px 0;
+	background-color: #ededed;
+}
+
+#ecografia,
+#cardiologia {
+	padding: 50px 0;
+	background-color: #ffffff;
+}
+
+.nav-tabs > li > a {
+	color: #ffffff;
+	background-color: #7e5a8c;
+	font-weight: 500;
+}
+
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+	background-color: #583e62;
+	border-color: transparent;
+}
+
+#myTabContent p {
+	color: #999999;
+}
+
+.dropdown-menu {
+	background-color: #7e5a8c;
+	padding: 0 0;
+}
+
+.dropdown-menu > li > a {
+	padding: 8px 20px;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+	background-color: #583e62;
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	background-color: #583e62;
+}
+
+
+/*RESPONSIVE
+============*/
+
+
+@media (min-width: 0px) {
+	#section-3 {
+		padding: 100px 0;
+	}
+
+	.veterinario {
+		margin-top: 0px;
+	}
+
+	.cuadro {
+		width: 100%;
+	}
+
+	.cuadro-margin-left {
+		margin-left: 0;
+	}
+
+	#section-3 .bottom-30:nth-of-type(6) {
+		margin-bottom: 0;
+	}
+
+	.nav-tabs > li {
+		float: none;
+		margin-bottom: 2px;
+	}
+
+}
+
+@media (min-width: 417px) {
+
+	.nav-tabs > li {
+		float: left;
+	}
+}
+
+@media (min-width: 640px) {
+
+	.header-xs h1 {
+		font-size: 32px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#section-2 h2 {
+		margin-top: 30px;
+	}
+
+	.cuadro {
+		width: 48.351648%;
+	}
+
+	.cuadro-margin-left {
+		margin-left: 3.296703296703297%;
+	}
+
+	.cuadro-margin-left:nth-of-type(3) {
+		margin-left: 0;
+	}
+
+	.cuadro-margin-left:nth-of-type(5) {
+		margin-left: 0;
+	}
+
+	#cirugia,
+	#rayo-digital,
+	#ecografia,
+	#cardiologia {
+		padding: 100px 0;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.veterinario {
+		margin-top: 0;
+	}
+}
+
+
+@media (min-width: 1170px) {
+
+	#section-2 h2 {
+		margin-top: 0;
+	}
+
+	.cuadro {
+		width: 31.578947%;
+	}
+
+	.cuadro-margin-left {
+		margin-left: 2.631578%;
+	}
+	
+	.cuadro-margin-left:nth-of-type(3) {
+		margin-left: 2.631578%;
+	}
+
+	.cuadro-margin-left:nth-of-type(4) {
+		margin-left: 0;
+	}
+
+	.cuadro-margin-left:nth-of-type(5) {
+		margin-left: 2.631578%;
+	}
+
+
+}
